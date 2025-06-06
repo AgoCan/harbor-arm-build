@@ -51,6 +51,8 @@ then
     sed -i 's#SPECTRAL_VERSION/spectral-linux#SPECTRAL_VERSION/spectral-linux-arm64#g' ./tools/spectral/Dockerfile
 fi
 
+echo "ignore-warnings ARM64-COW-BUG" >> ./make/photon/redis/redis.conf
+
 cat > make/photon/redis/Dockerfile << EOF
 FROM redis
 VOLUME /var/lib/redis
