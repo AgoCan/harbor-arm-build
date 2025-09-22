@@ -10,6 +10,8 @@
 |2.12.2|是|hank997/harbor-arm:2.12.2|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.12.2|
 |2.12.3|是|hank997/harbor-arm:2.12.3|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.12.3|
 |2.13.1|是|hank997/harbor-arm:2.13.1|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.13.1|
+|2.13.2|是|hank997/harbor-arm:2.13.2|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.13.2|
+|2.14.0|是|hank997/harbor-arm:2.14.0|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.14.0|
 
 > 腾讯香港仓库拉取失败，当然也可以自行尝试 hkccr.ccs.tencentyun.com/hank997/harbor-arm:${}
 
