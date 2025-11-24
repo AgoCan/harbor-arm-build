@@ -14,6 +14,7 @@
 |2.13.1|是|hank997/harbor-arm:2.13.1|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.13.1|
 |2.13.2|是|hank997/harbor-arm:2.13.2|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.13.2|
 |2.14.0|是|hank997/harbor-arm:2.14.0|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.14.0|
+|2.14.1|是|hank997/harbor-arm:2.14.1|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.14.1|
 
 > 腾讯香港仓库拉取失败，当然也可以自行尝试 hkccr.ccs.tencentyun.com/hank997/harbor-arm:${}
 
@@ -24,3 +25,11 @@
     ```bash
     docker run -it --rm -v $PWD:/pack crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor-arm:2.11.2 mv harbor-offline-installer-2.12.2.tgz /pack
     ```
+
+## 补充
+
+### nginx的版本问题
+
+可以修改下面的内容，使用官方的镜像即可
+- https://github.com/goharbor/harbor/blob/main/make/photon/nginx/Dockerfile
+
