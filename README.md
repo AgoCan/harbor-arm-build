@@ -23,7 +23,7 @@
 - 获取使用方式
 
     ```bash
-    docker run -it --rm -v $PWD:/pack crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor-arm:2.11.2 mv harbor-offline-installer-2.12.2.tgz /pack
+    docker run -it --rm -v $PWD:/pack crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.14.1 mv harbor-offline-installer-2.14.1.tgz /pack
     ```
 
 ## 补充
