@@ -1,6 +1,10 @@
 # harbor-arm-build
 
-> harbor arm 获取
+> 如果您找到了这个仓库，请自己使用，不要对外推广
+
+> 如果您想帮我，可以在 https://github.com/go-cheetah/cheetah 进行star. 这个仓库就不点了
+
+## harbor arm 获取
 
 |版本|是否拉取|harbor镜像地址|阿里镜像地址(广州)|
 |---|---|---|---|
