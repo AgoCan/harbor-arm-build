@@ -2,7 +2,9 @@
 
 > 如果您找到了这个仓库，请自己使用，不要对外推广
 
-> 如果您想帮我，可以在 https://github.com/go-cheetah/cheetah 进行star. 这个仓库就不点了
+> 如果您想帮我，可以在 [golang脚手架](https://github.com/go-cheetah/cheetah) 进行star. 这个仓库就不点了
+
+> 也可以在 [轻量级利用docker部署的运维平台](https://github.com/go-squirrel/squirrel-dev) 进行star，这个仓库还在开发中，运维平台
 
 ## harbor arm 获取
 
