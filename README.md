@@ -19,9 +19,11 @@
 |2.12.3|是|hank997/harbor-arm:2.12.3|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.12.3|
 |2.13.1|是|hank997/harbor-arm:2.13.1|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.13.1|
 |2.13.2|是|hank997/harbor-arm:2.13.2|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.13.2|
+|2.13.5|是|hank997/harbor-arm:2.13.5|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.13.5|
 |2.14.0|是|hank997/harbor-arm:2.14.0|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.14.0|
 |2.14.1|是|hank997/harbor-arm:2.14.1|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.14.1|
 |2.14.2|是|hank997/harbor-arm:2.14.2|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.14.2|
+|2.14.3|是|hank997/harbor-arm:2.14.3|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.14.3|
 
 > 腾讯香港仓库拉取失败，当然也可以自行尝试 hkccr.ccs.tencentyun.com/hank997/harbor-arm:${}
 
@@ -30,7 +32,7 @@
 - 获取使用方式
 
     ```bash
-    docker run -it --rm -v $PWD:/pack crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.14.2 mv harbor-offline-installer-2.14.2.tgz /pack
+    docker run -it --rm -v $PWD:/pack crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.14.3 mv harbor-offline-installer-2.14.3.tgz /pack
     ```
 
 ## 补充
