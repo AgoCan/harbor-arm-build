@@ -6,6 +6,9 @@ then
     version=2.11.2
 fi
 
+# 强制 Docker 使用 linux/arm64 平台构建
+export DOCKER_DEFAULT_PLATFORM=linux/arm64
+
 echo version: $version
 
 git clone --branch v${version} https://github.com/goharbor/harbor.git
