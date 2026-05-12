@@ -21,6 +21,8 @@ if [[ " ${specified_versions[@]} " =~ " ${version} " ]]; then
     find . -name Dockerfile.base | xargs sed -i 's#goharbor/photon:5.0#photon:5.0#g'
 fi
 
+sed -i 's#Linux-64bit.tar.gz#Linux-ARM64.tar.gz#g' ./Makefile 
+
 sed -i "s#^VERSIONTAG=.*#VERSIONTAG=${version}#g" ./Makefile 
 sed -i "s#^BASEIMAGETAG=.*#BASEIMAGETAG=${version}#g" ./Makefile 
 sed -i "s#PULL_BASE_FROM_DOCKERHUB=true#PULL_BASE_FROM_DOCKERHUB=false#g" ./Makefile 
