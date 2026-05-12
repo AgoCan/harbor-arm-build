@@ -44,3 +44,9 @@
 可以修改下面的内容，使用官方的镜像即可
 - https://github.com/goharbor/harbor/blob/main/make/photon/nginx/Dockerfile
 
+## 本地执行
+
+```
+version=2.15.1 bash build.sh
+docker build --build-arg version=2.15.1 -t crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.15.1 .
+```

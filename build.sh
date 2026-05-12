@@ -3,7 +3,7 @@
 # 配置在build.yml下面进行修改
 if [[ -z $version ]]
 then
-    version=2.11.2
+    version=2.15.1
 fi
 
 # 强制 Docker 使用 linux/arm64 平台构建
@@ -16,8 +16,8 @@ git clone --branch v${version} https://github.com/goharbor/harbor.git
 cd harbor
 
 
-sed -i "s#VERSIONTAG=dev#VERSIONTAG=${version}#g" ./Makefile 
-sed -i "s#BASEIMAGETAG=dev#BASEIMAGETAG=${version}#g" ./Makefile 
+sed -i "s#^VERSIONTAG=.*#VERSIONTAG=${version}#g" ./Makefile 
+sed -i "s#^BASEIMAGETAG=.*#BASEIMAGETAG=${version}#g" ./Makefile 
 sed -i "s#PULL_BASE_FROM_DOCKERHUB=true#PULL_BASE_FROM_DOCKERHUB=false#g" ./Makefile 
 sed -i "s#BUILDBIN=false#BUILDBIN=true#g" ./Makefile 
 sed -i 's#--no-cache##g' make/photon/Makefile 
