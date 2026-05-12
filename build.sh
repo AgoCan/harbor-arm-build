@@ -23,8 +23,8 @@ fi
 
 sed -i 's#Linux-64bit.tar.gz#Linux-ARM64.tar.gz#g' ./Makefile 
 
-sed -i "s#^VERSIONTAG=.*#VERSIONTAG=${version}#g" ./Makefile 
-sed -i "s#^BASEIMAGETAG=.*#BASEIMAGETAG=${version}#g" ./Makefile 
+sed -i "s#VERSIONTAG=dev#VERSIONTAG=${version}#g" ./Makefile 
+sed -i "s#BASEIMAGETAG=dev#BASEIMAGETAG=${version}#g" ./Makefile 
 sed -i "s#PULL_BASE_FROM_DOCKERHUB=true#PULL_BASE_FROM_DOCKERHUB=false#g" ./Makefile 
 sed -i "s#BUILDBIN=false#BUILDBIN=true#g" ./Makefile 
 sed -i 's#--no-cache##g' make/photon/Makefile 
