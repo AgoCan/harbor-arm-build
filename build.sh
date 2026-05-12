@@ -15,6 +15,11 @@ git clone --branch v${version} https://github.com/goharbor/harbor.git
 
 cd harbor
 
+# 指定版本需要替换photon基础镜像引用
+specified_versions=("2.15.1")
+if [[ " ${specified_versions[@]} " =~ " ${version} " ]]; then
+    find . -name Dockerfile.base | xargs sed -i 's#goharbor/photon:5.0#photon:5.0#g'
+fi
 
 sed -i "s#^VERSIONTAG=.*#VERSIONTAG=${version}#g" ./Makefile 
 sed -i "s#^BASEIMAGETAG=.*#BASEIMAGETAG=${version}#g" ./Makefile 
