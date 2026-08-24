@@ -28,6 +28,7 @@
 |2.14.3|是|hank997/harbor-arm:2.14.3|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.14.3|
 |2.15.0|是|hank997/harbor-arm:2.15.0|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.15.0|
 |2.15.1|是|hank997/harbor-arm:2.15.1|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.15.1|
+|2.15.2|是|hank997/harbor-arm:2.15.2|crpi-p2k20xc75i1dtww9.cn-guangzhou.personal.cr.aliyuncs.com/hank997/harbor:2.15.2|
 
 > 腾讯香港仓库拉取失败，当然也可以自行尝试 hkccr.ccs.tencentyun.com/hank997/harbor-arm:${}
 
