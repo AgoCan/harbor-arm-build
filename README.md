@@ -1,3 +1,6 @@
+> harbor官方计划在2.16版本开始提供arm镜像，https://github.com/goharbor/harbor/issues/23674
+> 后续这里就不再制作镜像
+
 # harbor-arm-build
 
 > 如果您找到了这个仓库，请自己使用，不要对外推广
