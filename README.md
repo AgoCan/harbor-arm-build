@@ -1,3 +1,4 @@
+> harbor已经发版 2.16.0 且支持arm版本，使用官方的方式吧，这边的不一定都进行验证了
 > harbor官方计划在2.16版本开始提供arm镜像，https://github.com/goharbor/harbor/issues/23674
 > 后续这里就不再制作镜像
 
